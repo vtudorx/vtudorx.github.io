@@ -37,8 +37,13 @@ params:
 
   homeInfoParams:
     Title: "Viorel Tudor"
-    Content: >
+    Content: |
       System Architect at [Freshful by eMAG](https://freshful.ro).
+
+      This site is where I write about AWS, experiments, trade-offs, AI-enabled
+      business intelligence, and architecture in practice.
+
+      You will find what is true, why it holds up, and what you can do with it.
 
   socialIcons:
     - name: linkedin
@@ -91,3 +96,9 @@ outputs:
     - HTML
     - RSS
     - JSON
+  # Notes kept from a previous edit; not Hugo config:
+  # How are these skills currently deployed? only on my pc
+  # Who consumes them and how? teammates and maybe ci/cd
+  # Are they called via MCP? yes
+  # How often do these skills evolve? weekly
+  # Do you need to support multiple versions simultaneously? no
