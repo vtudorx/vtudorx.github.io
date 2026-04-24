@@ -14,16 +14,20 @@ minify:
 
 params:
   author: "Viorel Tudor"
-  description: "System Architect at Freshful (eMAG). Writing about AI agents, AWS Bedrock AgentCore, multi-agent systems, and distributed e-commerce infrastructure at scale."
+  description: "System Architect at Freshful by eMAG. Writing about AWS, experiments, trade-offs, AI-enabled business intelligence, and architecture in practice."
   keywords:
+    - System architect
+    - AWS
+    - Go
+    - PHP Symfony
+    - AWS CDK
+    - AI-enabled business intelligence
     - AWS Bedrock
-    - AgentCore
-    - Strands
-    - multi-agent systems
-    - system architect
-    - e-commerce infrastructure
-    - OpenSearch
-    - Romania
+    - Claude
+    - Tableau
+    - MCP
+    - Domain-Driven Design
+    - Architecture Decision Records
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
