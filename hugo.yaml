@@ -1,0 +1,95 @@
+baseURL: "https://vtudorx.github.io/"
+languageCode: "en-us"
+title: "Viorel Tudor"
+theme: "PaperMod"
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  author: "Viorel Tudor"
+  description: "System Architect at Freshful (eMAG). Writing about AI agents, AWS Bedrock AgentCore, multi-agent systems, and distributed e-commerce infrastructure at scale."
+  keywords:
+    - AWS Bedrock
+    - AgentCore
+    - Strands
+    - multi-agent systems
+    - system architect
+    - e-commerce infrastructure
+    - OpenSearch
+    - Romania
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+  TocOpen: false
+  ShowWordCount: false
+
+  homeInfoParams:
+    Title: "Viorel Tudor"
+    Content: >
+      System Architect at [Freshful by eMAG](https://freshful.ro) — 10,000 orders/day.
+      I write about AI agents in production, AWS Bedrock AgentCore, Strands SDK,
+      multi-agent orchestration, OpenSearch hybrid search, and distributed systems at scale.
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/viorel-tudor"
+    - name: github
+      url: "https://github.com/vtudorx"
+    - name: rss
+      url: "/index.xml"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  editPost:
+    URL: "https://github.com/vtudorx/vtudorx.github.io/edit/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
