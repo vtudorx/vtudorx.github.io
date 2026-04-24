@@ -2,7 +2,7 @@
 
 > System Architect at Freshful by eMAG (part of Prosus group).
 > I design and build distributed infrastructure and AI agent systems
-> for a Romanian grocery e-commerce platform processing 10,000 orders/day.
+> for a Romanian grocery e-commerce platform.
 > Based in Bucharest, Romania.
 
 ## Expertise
