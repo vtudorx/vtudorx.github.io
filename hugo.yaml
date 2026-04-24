@@ -38,9 +38,7 @@ params:
   homeInfoParams:
     Title: "Viorel Tudor"
     Content: >
-      System Architect at [Freshful by eMAG](https://freshful.ro) — 10,000 orders/day.
-      I write about AI agents in production, AWS Bedrock AgentCore, Strands SDK,
-      multi-agent orchestration, OpenSearch hybrid search, and distributed systems at scale.
+      System Architect at [Freshful by eMAG](https://freshful.ro).
 
   socialIcons:
     - name: linkedin
