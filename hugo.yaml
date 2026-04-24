@@ -39,6 +39,12 @@ params:
   TocOpen: false
   ShowWordCount: false
 
+  schema:
+    publisherType: Person
+    sameAs:
+      - "https://www.linkedin.com/in/viorel-tudor"
+      - "https://github.com/vtudorx"
+
   homeInfoParams:
     Title: "Viorel Tudor"
     Content: |

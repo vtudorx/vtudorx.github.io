@@ -1,5 +1,7 @@
 ---
 title: "About"
+date: 2026-04-24
+lastmod: 2026-04-25
 layout: "single"
 url: "/about/"
 summary: "System Architect working across AWS cloud architecture, infrastructure automation, software systems, and AI-enabled business intelligence."
