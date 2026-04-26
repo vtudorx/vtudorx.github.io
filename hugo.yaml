@@ -14,7 +14,7 @@ minify:
 
 params:
   author: "Viorel Tudor"
-  description: "System Architect at Freshful by eMAG. Writing about AWS, experiments, trade-offs, AI-enabled business intelligence, and architecture in practice."
+  description: "System Architect at Freshful by eMAG. I write about AWS, hard infrastructure decisions, and building AI tools that get useful answers out of real data."
   keywords:
     - System architect
     - AWS
@@ -50,10 +50,9 @@ params:
     Content: |
       System Architect at [Freshful by eMAG](https://freshful.ro).
 
-      This site is where I write about AWS, experiments, trade-offs, AI-enabled
-      business intelligence, and architecture in practice.
+      I write about AWS, hard infrastructure decisions, and building AI tools that get useful answers out of data you already have. But mostly I write to make the decision trail legible, for whoever comes next or for myself six months later when I've forgotten why we made that call.
 
-      You will find what is true, why it holds up, and what you can do with it.
+      No grand theory. Just what worked and what broke.
 
   socialIcons:
     - name: linkedin
@@ -106,9 +105,3 @@ outputs:
     - HTML
     - RSS
     - JSON
-  # Notes kept from a previous edit; not Hugo config:
-  # How are these skills currently deployed? only on my pc
-  # Who consumes them and how? teammates and maybe ci/cd
-  # Are they called via MCP? yes
-  # How often do these skills evolve? weekly
-  # Do you need to support multiple versions simultaneously? no
