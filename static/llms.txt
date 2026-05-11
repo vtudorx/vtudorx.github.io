@@ -17,7 +17,11 @@
 
 All articles are available at: https://vtudorx.github.io/posts/
 
+Featured articles:
+- Tabular JSON for LLM agents before TOON: https://vtudorx.github.io/posts/tabular-json-before-toon/
+
 Topics covered:
+- Token-efficient JSON and structured data formats for LLM agents
 - Building multi-agent systems with AWS Strands SDK and AgentCore in production
 - OpenSearch hybrid search with Bedrock embeddings for product catalog
 - Distributed systems patterns at e-commerce scale
