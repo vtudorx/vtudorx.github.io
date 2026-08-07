@@ -50,7 +50,7 @@ params:
   homeInfoParams:
     Title: "Viorel Tudor"
     Content: |
-      AI Solutions Architect at Lenovo. Previously, System Architect at [Freshful by eMAG](https://freshful.ro).
+      AI Solutions Architect at Lenovo.
 
       I write about AI, cloud architecture, hard infrastructure decisions, and building useful tools around data you already have. But mostly I write to make the decision trail legible, for whoever comes next or for myself six months later when I've forgotten why we made that call.
 
