@@ -14,7 +14,7 @@ minify:
 
 params:
   author: "Viorel Tudor"
-  description: "AI Solutions Architect at Lenovo. Previously System Architect at Freshful by eMAG. I write about AI, cloud architecture, hard infrastructure decisions, and building useful tools around real data."
+  description: "AI Solutions Architect at Lenovo. I write about AI, cloud architecture, hard infrastructure decisions, and building useful tools around real data."
   keywords:
     - AI Solutions Architect
     - System architect
