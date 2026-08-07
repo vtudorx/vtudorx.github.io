@@ -1,9 +1,15 @@
 # Viorel Tudor
 
-> System Architect at Freshful by eMAG (part of Prosus group).
-> I design and build distributed infrastructure and AI agent systems
+> AI Solutions Architect at Lenovo.
+> Previously, System Architect at Freshful by eMAG (part of Prosus group),
+> where I designed and built distributed infrastructure and AI agent systems
 > for a Romanian grocery e-commerce platform.
 > Based in Bucharest, Romania.
+
+## Career history
+
+- AI Solutions Architect, Lenovo — current role
+- System Architect, Freshful by eMAG (part of Prosus group) — previous role
 
 ## Expertise
 

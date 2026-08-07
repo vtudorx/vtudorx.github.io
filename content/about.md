@@ -4,13 +4,18 @@ date: 2026-04-24
 lastmod: 2026-04-26
 layout: "single"
 url: "/about/"
-summary: "System Architect building on AWS. Cloud architecture, infrastructure automation, and AI tools that let teams ask business questions in plain language."
+summary: "AI Solutions Architect at Lenovo, previously System Architect at Freshful by eMAG. I write about AI, cloud architecture, infrastructure automation, and practical systems design."
 ShowToc: false
 ---
 
 I've broken enough production systems to know that the hardest part isn't the code. It's the decisions that happen before anyone writes a line.
 
-I'm a System Architect. My work sits at the point where business goals need to become technical decisions: what to build, how to run it, how to secure it, and how to keep delivery moving when the first answer was wrong.
+I'm an AI Solutions Architect at Lenovo, previously a System Architect at Freshful by eMAG. My work sits at the point where business goals need to become technical decisions: what to build, how to run it, how to secure it, and how to keep delivery moving when the first answer was wrong.
+
+## Career history
+
+- **AI Solutions Architect, Lenovo** — current role
+- **System Architect, Freshful by eMAG** — previous role; part of the Prosus group
 
 My main stack is Go, PHP/Symfony, Python, and AWS CDK. On AWS, I work across EKS, Lambda, ECS/Fargate, Aurora, DynamoDB, EventBridge, S3, Transit Gateway, IAM, and Cognito.
 

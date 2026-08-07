@@ -14,9 +14,11 @@ minify:
 
 params:
   author: "Viorel Tudor"
-  description: "System Architect at Freshful by eMAG. I write about AWS, hard infrastructure decisions, and building AI tools that get useful answers out of real data."
+  description: "AI Solutions Architect at Lenovo. Previously System Architect at Freshful by eMAG. I write about AI, cloud architecture, hard infrastructure decisions, and building useful tools around real data."
   keywords:
+    - AI Solutions Architect
     - System architect
+    - Lenovo
     - AWS
     - Go
     - PHP Symfony
@@ -48,9 +50,9 @@ params:
   homeInfoParams:
     Title: "Viorel Tudor"
     Content: |
-      System Architect at [Freshful by eMAG](https://freshful.ro).
+      AI Solutions Architect at Lenovo. Previously, System Architect at [Freshful by eMAG](https://freshful.ro).
 
-      I write about AWS, hard infrastructure decisions, and building AI tools that get useful answers out of data you already have. But mostly I write to make the decision trail legible, for whoever comes next or for myself six months later when I've forgotten why we made that call.
+      I write about AI, cloud architecture, hard infrastructure decisions, and building useful tools around data you already have. But mostly I write to make the decision trail legible, for whoever comes next or for myself six months later when I've forgotten why we made that call.
 
       No grand theory. Just what worked and what broke.
 
