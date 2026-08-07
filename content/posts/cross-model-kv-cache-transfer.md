@@ -18,19 +18,8 @@ keywords:
   - prefill
 ---
 
-[This paper](https://arxiv.org/html/2608.03893v1), *Cross-Model KV Cache Transfer in LLM Families*, describes a way to transfer KV caches between certain models in the same family.
+[This paper](https://arxiv.org/html/2608.03893v1) describes a way to transfer KV caches between certain models in the same family.
 
-That could avoid recomputing the entire prefill when routing a request to a larger model. In a long-running agent session, or during a small-to-large model handoff, that is potentially a meaningful saving: the target model could reuse a transformed version of the source model's cache instead of processing the accumulated context again.
+That could avoid recomputing the entire prefill when routing a request to a larger model.
 
-The paper uses a closed-form, per-head ridge mapper. The source and target models need compatible KV-head structure, and the mapper is calibrated on a relatively small dataset. The reported results are encouraging, but uneven: some model pairs retain much of the target model's standalone accuracy, while others degrade sharply.
-
-The practical decision is therefore not simply whether cache transfer is faster. It is whether the end-to-end cost of transforming, transferring, and loading the cache is lower than running prefill again, while the resulting output quality remains acceptable for the workload.
-
-If that holds on production traces, this looks especially relevant for:
-
-- cost-quality routing between models in the same family;
-- long-context, multi-turn agent sessions;
-- mid-conversation model upgrades or downgrades;
-- serving architectures where prefill dominates latency or cost.
-
-The important caveat is validation. The technique needs to be tested against real prompts, context lengths, hardware, serialization and network overhead, and task-specific quality thresholds before it becomes a production design choice.
+If validated on production workloads, the approach would make sense when the cost of prefill is higher than the cost of transforming, transferring, and loading the cache, and when the output quality is acceptable.
